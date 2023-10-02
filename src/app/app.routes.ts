@@ -10,6 +10,6 @@ export const APP_ROUTES: Routes = [
   },
   {
     path: 'cart',
-    loadComponent: () => import('./cart/cart/cart.component').then(c => c.CartComponent)
+    loadComponent: () => import('./cart/cart/cart.component').then(m => m.CartComponent)
   }
 ];
